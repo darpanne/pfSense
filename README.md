@@ -29,33 +29,32 @@ Below are the key tasks performed:
 - Displays real-time status of WAN, LAN, and VLAN interfaces, including traffic details, packet loss, and DNS configurations
 
 ### 7. DHCP Lease Management
-![Screenshot 2024-12-21 170752](https://github.com/user-attachments/assets/a79d5f3e-99e3-41f3-8b3f-83e4830a1f87)
+![Screenshot 2024-12-21 170752](https://github.com/user-attachments/assets/c9a148df-322e-47ad-9163-40b41ebba3c7)
 - Reviewed active DHCP leases, including IP assignments, MAC addresses, and lease duration.
 - Verified accurate IP allocation within the LAN network using DHCP lease logs.
 - Cross-checked device connectivity with real-time lease status for troubleshooting.
 
-
-### 2. DHCP and NAT Setup
-- Enabled and verified DHCP services for automatic IP assignment.
-- Configured Source NAT (SNAT) and Port Forwarding to manage external connections.
-
-### 3. VPN and PKI Implementation
-- Set up site-to-site and remote-access VPN tunnels using OpenVPN.
-- Configured Public Key Infrastructure (PKI) for secure authentication.
-
-### 4. Traffic Monitoring and Logs
+### 3. Traffic Monitoring and Logs
 ![Screenshot 2024-12-21 170507](https://github.com/user-attachments/assets/34252233-9803-48b4-bada-9204387ae4b6)
 - Monitored real-time traffic on WAN and LAN interfaces.
 - Analyzed system and DHCP logs for troubleshooting and optimization.
 
-### 5. Firewall Rules Management
+### 4. DHCP and NAT Setup
+- Enabled and verified DHCP services for automatic IP assignment.
+- Configured Source NAT (SNAT) and Port Forwarding to manage external connections.
+
+### 5. VPN and PKI Implementation
+- Set up site-to-site and remote-access VPN tunnels using OpenVPN.
+- Configured Public Key Infrastructure (PKI) for secure authentication.
+
+### 6. Firewall Rules Management
 - Created and managed firewall rules to control traffic flow between VLANs and networks.
 - Fine-tuned rules to enhance network security.
 
-### 6. Advanced Troubleshooting
+### 7. Advanced Troubleshooting
 - Diagnosed configuration errors affecting NAT and VPN connectivity.
 - Performed packet capture using Wireshark for deep analysis.
 
 ---
 
-Return to the [Main Repository](../README.md) for other firewall and network monitoring configurations.
+Return to the [Main Repository](https://github.com/darpanne/Firewall-Management) for other firewall and network monitoring configurations.
